@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Fibonacci\Fibonacci.csproj" />
+    <PackageReference Include="Arthur.Verzele.Fibonacci" Version="2.0.0" />
   </ItemGroup>
 
 </Project>

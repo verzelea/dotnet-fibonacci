@@ -5,7 +5,5 @@ var app = builder.Build();
 
 app.MapGet("/Fibonacci", 
     async () => await Fibonacci.Compute.ExecuteAsync(new []{"44", "43"}));
-app.MapGet("/Fibonacci2", 
-    async () => await Fibonacci.Compute.ExecuteAsync(new []{"44", "43"}));
 
 app.Run();
